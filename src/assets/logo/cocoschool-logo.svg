@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <!-- Voiture -->
+    <g transform="translate(40, 80)">
+        <!-- Corps de la voiture -->
+        <path d="M10,40 C10,40 20,20 40,20 L80,20 C100,20 110,40 110,40 L120,40 L120,60 L0,60 L0,40 L10,40" 
+              fill="#4A90E2" stroke="#2171C7" stroke-width="2"/>
+        <!-- Fenêtres -->
+        <path d="M40,20 L45,5 L75,5 L80,20" 
+              fill="#87CEEB" stroke="#2171C7" stroke-width="2"/>
+        <!-- Roues -->
+        <circle cx="30" cy="60" r="10" fill="#333"/>
+        <circle cx="90" cy="60" r="10" fill="#333"/>
+    </g>
+    
+    <!-- Feuille -->
+    <g transform="translate(90, 40)">
+        <path d="M0,20 C-10,10 -10,0 0,0 C10,0 10,10 0,20" 
+              fill="#2ECC71" stroke="#27AE60" stroke-width="2"/>
+    </g>
+    
+    <!-- Texte -->
+    <text x="100" y="160" 
+          font-family="Arial, sans-serif" 
+          font-size="24" 
+          text-anchor="middle" 
+          fill="#333333">
+        CoCoSchool
+    </text>
+</svg>
